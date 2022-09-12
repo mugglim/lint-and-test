@@ -1,0 +1,12 @@
+{
+  "editor.codeActionsOnSave": {
+    // lint javascript files wtih eslint config on saving
+    "source.fixAll.eslint": true,
+    // lint css files wtih stylinelint config on saving
+    "source.fixAll.stylelint": true
+  },
+  // format code with prettier config on saving
+  "editor.formatOnSave": true,
+  // set that prettier is a default formatter in VSCode
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
