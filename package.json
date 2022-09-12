@@ -1,0 +1,27 @@
+{
+  "name": "lint-and-test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "husky-prepare": "husky install",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "src/*.{js}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "src/*.{css}": [
+      "prettier --write",
+      "stylelint --fix"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.11.0",
+    "stylelint-order": "^5.0.0"
+  }
+}
