@@ -1,8 +1,10 @@
 # lint-and-test
 
+![npm](https://img.shields.io/badge/npm-CB3837?&logo=npm&logoColor=white) ![vs-code](https://img.shields.io/badge/VSCode-007ACC?&logo=visual-studio-code&logoColor=white) ![es-lint](https://img.shields.io/badge/ESLint-4B32C3?&logo=eslint&logoColor=white) ![prettier](https://img.shields.io/badge/Prettier-360D3A?&logo=prettier&logoColor=white) ![prettier](https://img.shields.io/badge/Stylelint-263238?&logo=stylelint&logoColor=white)
+
 ## setup
 
-**node packages**
+**npm**
 
 ```
 npm install
@@ -11,11 +13,9 @@ npm run husky-prepare
 
 **vscode extensions**
 
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Prettier](https://marketplace.visualstudio.com/items?itemname=esbenp.prettier-vscode)
-- [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
-
-... `TBU`
+```bash
+.vscode/install-vscode-extension.sh
+```
 
 ## Dependencies
 
